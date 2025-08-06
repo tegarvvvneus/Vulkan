@@ -1,0 +1,8 @@
+body { background:#0a0a0a; color:white; font-family:Arial; text-align:center; }
+h1 { color:#0ff; }
+input,button { padding:10px; margin:5px; border-radius:5px; }
+button { background:#0ff; color:black; cursor:pointer; }
+table { margin:auto; margin-top:20px; border-collapse:collapse; width:90%; }
+th, td { border:1px solid #0ff; padding:8px; text-align:center; }
+.form-box { margin-top:20px; }
+.login-box { margin-top:20%; background:#111; padding:20px; border-radius:10px; display:inline-block; }

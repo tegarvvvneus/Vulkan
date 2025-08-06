@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Panel Key</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-box">
+  <h2>Login Admin</h2>
+  <input type="password" id="password" placeholder="Password Admin">
+  <button onclick="login()">Login</button>
+</div>
+
+<script>
+function login(){
+  let pass = document.getElementById('password').value;
+  if(pass === "admin123"){ // Ganti password admin di sini
+    window.location.href = "dashboard.html";
+  } else {
+    alert("Password salah!");
+  }
+}
+</script>
+</body>
+</html>

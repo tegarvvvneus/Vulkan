@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel Key</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<h1>Panel Key Manager</h1>
+
+<div class="form-box">
+  <input type="text" id="keyName" placeholder="Nama Key">
+  <input type="number" id="maxDevice" placeholder="Max Device">
+  <input type="number" id="expireDays" placeholder="Lama aktif (hari)">
+  <button onclick="addKey()">Tambah Key</button>
+</div>
+
+<table id="keyTable">
+  <tr>
+    <th>Key</th>
+    <th>Max Device</th>
+    <th>Used</th>
+    <th>Expire (Hari)</th>
+    <th>Aksi</th>
+  </tr>
+</table>
+
+</body>
+</html>
